@@ -40,3 +40,11 @@ constructor:
           types:
             - String
           details: "buffer.blob.constructor.params.[0].params.[1].details"
+methods:
+  - name: arrayBuffer
+    static: false
+    history:
+      - type: added
+        versions: [v15.7.0, v14.18.0]
+    returns:
+      - type: Promise

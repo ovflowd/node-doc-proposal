@@ -14,15 +14,7 @@ String sources are encoded as UTF-8 byte sequences and copied into the Blob.
 Unmatched surrogate pairs within each string part will be replaced by Unicode
 U+FFFD replacement characters.
 
-### `blob.arrayBuffer()`
-
-<!-- YAML
-added:
-  - v15.7.0
-  - v14.18.0
--->
-
-* Returns: {Promise}
+### `blob.arrayBuffer()` {#api/modules/buffer/blob/methods/arrayBuffer}
 
 Returns a promise that fulfills with an {ArrayBuffer} containing a copy of
 the `Blob` data.
