@@ -1,0 +1,42 @@
+name: 'api/modules/buffer/blob'
+tags:
+  - "buffer blob"
+history:
+  - type: added
+    versions: [v15.7.0, v14.18.0]
+  - type: updated
+    versions: [v18.0.0, v16.17.0]
+    pullRequest: "https://github.com/nodejs/node/pull/41270"
+    details: "buffer.blob.history.[1].details"
+constructor:
+  history:
+    - type: added
+      versions: [v15.7.0, v14.18.0]
+    - type: updated
+      versions: [v15.7.0, v14.18.0]
+      pullRequest: "https://github.com/nodejs/node/pull/39708"
+      details: "buffer.blob.constructor.history.[1].details"
+  params:
+    - name: sources
+      optional: false
+      types:
+        - String[]
+        - ArrayBuffer[]
+        - TypedArray[]
+        - DataView[]
+        - Blob[]
+      details: "buffer.blob.constructor.params.[0].details"
+    - name: options
+      optional: true
+      types:
+        - Object
+      details: "buffer.blob.constructor.params.[0].details"
+      params:
+        - name: "endings"
+          types:
+            - String
+          details: "buffer.blob.constructor.params.[0].params.[0].details"
+        - name: "type"
+          types:
+            - String
+          details: "buffer.blob.constructor.params.[0].params.[1].details"

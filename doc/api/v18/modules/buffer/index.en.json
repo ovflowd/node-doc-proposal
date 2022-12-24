@@ -1,0 +1,5 @@
+{
+  "buffer.index.section.buffersAndCharacterEncodings.history.[0].details": "Introduced `base64url` encoding.",
+  "buffer.index.section.buffersAndCharacterEncodings.history.[1].details": "Introduced `latin1` as an alias for `binary`.",
+  "buffer.index.section.buffersAndCharacterEncodings.history.[2].details": "Removed the deprecated `raw` and `raws` encodings."
+}

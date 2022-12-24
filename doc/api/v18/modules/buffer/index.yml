@@ -1,0 +1,25 @@
+name: 'api/modules/buffer'
+stability: Stable
+source: "lib/buffer.js"
+tags:
+  - "buffers"
+history:
+  - type: added
+    versions: [v0.1.90]
+sections:
+  - name: "buffers-and-character-encodings":
+    history:
+      - type: added
+        versions: [v0.1.90]
+      - type: updated
+        versions: [v15.7.0, v14.18.0]
+        pullRequest: "https://github.com/nodejs/node/pull/36952"
+        details: "buffer.index.section.buffersAndCharacterEncodings.history.[0].details"
+      - type: updated
+        versions: [v6.4.0]
+        pullRequest: "https://github.com/nodejs/node/pull/7111"
+        details: "buffer.index.section.buffersAndCharacterEncodings.history.[1].details"
+      - type: updated
+        versions: [v5.0.0]
+        pullRequest: "https://github.com/nodejs/node/pull/2859"
+        details: "buffer.index.section.buffersAndCharacterEncodings.history.[2].details"

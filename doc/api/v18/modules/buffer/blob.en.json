@@ -1,0 +1,7 @@
+{
+  "buffer.blob.history.[1].details": "No longer experimental.",
+  "buffer.blob.constructor.history.[1].details": "Added the standard `endings` option to replace line-endings, and removed the non-standard `encoding` option.",
+  "buffer.blob.constructor.params.[0].details": "An array of string, {ArrayBuffer}, {TypedArray}, {DataView}, or {Blob} objects, or any mix of such objects, that will be stored within the `Blob`.",
+  "buffer.blob.constructor.params.[0].params.[0].details": "One of either `'transparent'` or `'native'`. When set to `'native'`, line endings in string source parts will be converted to the platform native line-ending as specified by `require('node:os').EOL`.",
+  "buffer.blob.constructor.params.[0].params.[1].details": "The Blob content-type. The intent is for `type` to convey the MIME media type of the data, however no validation of the type format is performed."
+}
