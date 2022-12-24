@@ -1,0 +1,8 @@
+name: 'api/modules/crypto'
+stability: Stable
+source: "lib/crypto.js"
+tags:
+  - "crypto"
+history:
+  - type: added
+    versions: [v0.3.6]

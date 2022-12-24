@@ -1,0 +1,28 @@
+name: 'api/cli'
+tags:
+  - "command line options"
+  - "command line"
+  - "cli"
+history:
+  - type: added
+    versions: [v5.9.1]
+sections:
+  - name: "-":
+    history:
+      - type: added
+        versions: [v8.0.0]
+  - name: "--":
+    history:
+      - type: added
+        versions: [v6.11.0]
+  - name: "--abort-on-uncaught-exception":
+    history:
+      - type: added
+        versions: [v0.10.8]
+  - name: "--build-snapshot":
+    stability: Experimental
+    tags:
+      - "node build snapshot"
+    history:
+      - type: added
+        versions: [v18.8.0]

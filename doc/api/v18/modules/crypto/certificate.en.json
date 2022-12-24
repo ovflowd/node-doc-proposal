@@ -1,0 +1,5 @@
+{
+  "crypto.certificate.method.exportChallenge.history.[0].details": "The spkac argument can be an ArrayBuffer. Limited the size of the spkac argument to a maximum of 2**31 - 1 bytes.",
+  "crypto.certificate.method.exportChallenge.returns.[0].details": "The challenge component of the `spkac` data structure, which includes a public key and a challenge.",
+  "crypto.certificate.method.exportChallenge.params.[1].details": "The [encoding][] of the `spkac` string."
+}
