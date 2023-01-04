@@ -1,5 +1,5 @@
 name: 'api/modules/crypto'
-stability: Stable
+stability: stable
 source: "lib/crypto.js"
 tags:
   - "crypto"

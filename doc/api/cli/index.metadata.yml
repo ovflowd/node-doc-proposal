@@ -1,4 +1,5 @@
 name: 'api/cli'
+stability: stable
 tags:
   - "command line options"
   - "command line"

@@ -7,22 +7,22 @@
 
 -->
 
-[About this Documentation](about-this-documentation.md)
+[About this Documentation](documentation.en.content.md)
 [Command Line Options](cli/index.md)
 
 ---
 
 ### C++ Features
 
-[C++ Addons](core/addons.md)
-[C++ Addons w/ N-API](core/n-api.md)
-[C++ Embedder API](core/embedding.md)
+[C++ Addons](core/addons.en.content.md)
+[C++ Addons w/ N-API](core/n-api.en.content.md)
+[C++ Embedder API](core/embedding.en.content.md)
 
 ---
 
 ### HTTP Modules
 
-- [HTTP/1](modules/http/navigation.en.md)
+- [HTTP/1](modules/http/en.navigation.md)
 
 <!-- Other HTTP modules below -->
 
@@ -30,9 +30,9 @@
 
 ### Core Modules
 
-- [Crypto](modules/crypto/navigation.en.md)
-- [Buffer](modules/buffer/navigation.en.md)
-- [File System](modules/fs/navigation.en.md)
+- [Crypto](modules/crypto/en.navigation.md)
+- [Buffer](modules/buffer/en.navigation.md)
+- [File System](modules/fs/en.navigation.md)
 
 <!-- Remaining Core modules here ... -->
 
@@ -40,9 +40,9 @@
 
 ### Global Modules
 
-[Error Handling](guides/error-handling.md)
-[Using Buffers](guides/buffers.md)
-[Using Console](guides/console.md)
+[Error Handling](guides/error-handling.en.contentmd)
+[Using Buffers](guides/buffers.en.content.md)
+[Using Console](guides/console.en.content.md)
 
 <!-- This Navigation is just an example and doesn't represent a realistic scenario -->
 <!-- This Navigation will initially be generated but then it can be edited to have sections such as shown above -->

@@ -1,4 +1,5 @@
 name: 'api/modules/buffer/blob'
+stability: stable
 tags:
   - "buffer blob"
 history:
@@ -42,6 +43,7 @@ constructor:
           details: "buffer.blob.constructor.params.[0].params.[1].details"
 methods:
   - name: arrayBuffer
+    stability: stable
     static: false
     history:
       - type: added

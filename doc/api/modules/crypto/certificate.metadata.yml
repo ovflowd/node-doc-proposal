@@ -1,4 +1,5 @@
 name: 'api/modules/crypto/certificate'
+stability: stable
 tags:
   - "certificates"
   - "digital certificates"
@@ -7,6 +8,7 @@ history:
     versions: [v0.11.8]
 methods:
   - name: exportChallenge
+    stability: deprecated
     static: true
     history:
       - type: added

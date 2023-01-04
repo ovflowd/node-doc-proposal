@@ -1,8 +1,8 @@
-- [Module: Crypto](index.md)
-  - [Class: Certificate](certificate.md)
-  - [Class: Cipher](cipher.md)
-  - [Class: Decipher](decipher.md)
-  - [`node:crypto` methods and properties](node-crypto.md)
+- [Module: Crypto](index.en.content.md)
+  - [Class: Certificate](certificate.en.content.md)
+  - [Class: Cipher](cipher.en.content.md)
+  - [Class: Decipher](decipher.en.content.md)
+  - [`node:crypto` methods and properties](node-crypto.en.content.md)
 
 <!-- ** Important Notes **
 
